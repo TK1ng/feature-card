@@ -37,7 +37,7 @@
 
 body{
   background-color: hsl(0, 0%, 98%);
-  font-size: 15px;
+  font-size: 1rem;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -102,6 +102,13 @@ footer {
 }
 
 @media only screen and (min-width: 900px){
+  .heading {
+    text-align: center;
+    padding: .5em;
+    width: 80%;
+    margin: auto;
+  }
+  
   .box-1 {
     grid-row: 1/5;
     align-self: center;
