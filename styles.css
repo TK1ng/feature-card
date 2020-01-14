@@ -68,7 +68,7 @@ h4{
 .heading {
   text-align: center;
   padding: .5em;
-  width: 30%;
+  width: 80%;
   margin: auto;
 }
 
@@ -102,7 +102,12 @@ footer {
 }
 
 @media only screen and (min-width: 900px){
-  
+  .heading {
+    text-align: center;
+    padding: .5em;
+    width: 30%;
+    margin: auto;
+  }
   
   .box-1 {
     grid-row: 1/5;
